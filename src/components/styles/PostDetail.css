@@ -1,0 +1,22 @@
+.post-detail {
+  background: #1a1a1a;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.post-detail img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.post-detail h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.post-detail p {
+  font-size: 16px;
+  color: #b3b3b3;
+}

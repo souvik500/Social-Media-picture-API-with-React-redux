@@ -1,0 +1,36 @@
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.post-card {
+  background: #1a1a1a;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.post-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.post-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.post-card p {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.post-card a {
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: bold;
+}
