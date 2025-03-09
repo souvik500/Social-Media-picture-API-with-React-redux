@@ -14,6 +14,7 @@ Your app should have two routes:
 Use Redux to manage the app's state. You should create at least one Redux store to hold the data you fetch from the API and use it to populate your views.
 
 Fetch data from an API using Redux Thunk middleware. Use the `fetch` method to get the data from the following API endpoint: `https://jsonplaceholder.typicode.com/posts`.
+
 The data returned from the API will be an array of objects. Each object will have the following properties:
 
 `userId`: The ID of the user who created the post.
@@ -46,7 +47,7 @@ https://www.figma.com/file/HywHp4NEMyXhcBNaaPC65a/F4---Module-Test---May?type=de
 
 #### Create React components and set up Redux (15 marks)
 
-  Create separate components for the home page and detail page views
+Create separate components for the home page and detail page views
 Set up a Redux store to hold the fetched data
 Create Redux actions and reducers to fetch data from the API and update the Redux store
 
